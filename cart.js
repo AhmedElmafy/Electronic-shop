@@ -67,11 +67,13 @@ removeButtons.forEach(button => {
         total.forEach(e => {
         e.innerHTML = `$${totalPrices}`;
     });
-    if (savedProduct && Array.isArray(savedProduct)) {
-        num_order.textContent = savedProduct.length;
-    } else {
-        num_order.textContent = 0; // في حالة عدم وجود عناصر أو savedProduct ليس مصفوفة
-    }
+    num_order.forEach(e => {
+        if (savedProduct && Array.isArray(savedProduct)) {
+            e.textContent = savedProduct.length;
+        }else {
+            e.textContent = 0; // في حالة عدم وجود عناصر أو savedProduct ليس مصفوفة
+        }
+      })
     });
 });
 
