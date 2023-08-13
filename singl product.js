@@ -52,14 +52,16 @@ addToCart.onclick = function(e){
             yes.style.top = 0;
             setTimeout(function () { no.style.top = "-300px"; }, 5000);
 
-                let num_order = document.querySelector("#num-order");
+                let num_order = document.querySelectorAll("#num-order");
                 const savedCartJSON = localStorage.getItem('cart');
                 const savedToCart = JSON.parse(savedCartJSON);
 
-                if (savedToCart && Array.isArray(savedToCart)) {
-                num_order.textContent = savedToCart.length;
-                } else {
-                num_order.textContent = 0; // في حالة عدم وجود عناصر أو savedProduct ليس مصفوفة
-                }
+              num_order.forEach(e => {
+                  if (savedToCart && Array.isArray(savedToCart)) {
+                      e.textContent = savedToCart.length;
+                   } else {
+                     e.textContent = 0; // في حالة عدم وجود عناصر أو savedProduct ليس مصفوفة
+                    }
+                })
     }
 }
