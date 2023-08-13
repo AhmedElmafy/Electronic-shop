@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Electronic shop</title>
+
+    <!-- css fille -->
+    <link rel="stylesheet" href="Electronic shop.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div id="yesorno">
+        <div id="yes"><h4>The email has been sent successfully.</h4><i id="the-yes" class="fa-solid fa-xmark"></i></div>
+        <div id="no"><h4>There is an error in the e-mail.</h4><i id="the-no" class="fa-solid fa-xmark"></i></div>
+    </div>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" alt="" class="logo"></a>
+
+        <nav>
+            <ul id="navbar">
+                <li class="li"><a class="active" href="Electronic shop.html">home</a></li>
+                <li class="li"><a href="shop.html">shop</a></li>
+                <li class="li"><a href="blog.html">blog</a></li>
+                <li class="li"><a href="about.html">about</a></li>
+                <li class="li"><a href="contact.html">contact</a></li>
+                <li class="li" id="lg-bag"><a href="cart.html"><span id="num-order">0</span><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </nav>
+
+        <div id="mobile">
+            <a href="cart.html"><span id="num-order">0</span><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="hero">
+        <h4>trade-in-offer</h4>
+        <h2>super value deals</h2>
+        <h1>on all products</h1>
+        <p>save more with coupons & up to 70% off!</p>
+        <button onclick="window.location.href = 'shop.html';">shop now</button>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/features/f1.png" alt="">
+            <h6>free shipping</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/features/f2.png" alt="">
+            <h6>online order</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/features/f3.png" alt="">
+            <h6>save money</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/features/f4.png" alt="">
+            <h6>promotions</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/features/f5.png" alt="">
+            <h6>happy sall</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/features/f6.png" alt="">
+            <h6>f24/ support</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>featured products</h2>
+        <p>summer collection new morden design</p>
+        <div class="pro-container">
+            <div class="pro" data-name="shirt1">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Floral shirt</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro" data-name="shirt2">
+                <img src="img/products/f2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Green rose shirt</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro" data-name="shirt3">
+                <img src="img/products/f3.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Red rose shirt</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro" data-name="shirt4">
+                <img src="img/products/f4.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Pink and white shirt</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro" data-name="shirt5">
+                <img src="img/products/f5.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>purple shirt</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro" data-name="shirt6">
+                <img src="img/products/f6.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Two-tone beige and light blue shirt</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro" data-name="pants">
+                <img src="img/products/f7.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>White pants with roses</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro" data-name="blouse">
+                <img src="img/products/f8.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Crimson girl's blouse</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4>repair services</h4>
+        <h2>up to <span>70% off</span> - All t-shirts & accessories</h2>
+        <button class="normal" onclick="window.location.href = 'shop.html';">explore more</button>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>new arrivals</h2>
+        <p>summer collection new morden design</p>
+        <div class="pro-container">
+            <div class="pro" data-name="shirt7">
+                <img src="img/products/n1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Formal men's shirt</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro" data-name="shirt8">
+                <img src="img/products/n2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Check shirt with small check pattern</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro" data-name="shirt9">
+                <img src="img/products/n3.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Men's white shirt</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro" data-name="shirt10">
+                <img src="img/products/n4.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Stylish army shirt</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro" data-name="shirt11">
+                <img src="img/products/n5.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Stylish blue shirt</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro" data-name="short">
+                <img src="img/products/n6.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Beige summer shorts</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro" data-name="shirt12">
+                <img src="img/products/n7.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Brown cotton shirts</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro" data-name="shirt13">
+                <img src="img/products/n8.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Men's black shirt</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="money-cart">
+                        <h4>$70</h4>
+                        <a class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>crazy deals</h4>
+            <h2>buy 1 get 1 free</h2>
+            <span>the best classic dress is on sale at cara</span>
+            <button class="white" onclick="window.location.href = 'shop.html';">learn more</button>
+        </div>
+
+        <div class="banner-box banner-box2">
+            <h4>spring/summer</h4>
+            <h2>upcomming season</h2>
+            <span>the best classic dress is on sale at cara</span>
+            <button class="white" onclick="window.location.href = 'shop.html';">collection</button>
+        </div>
+    </section>
+
+    <section id="banner3">
+        <div class="banner-box">
+            <h2>seasonal sale</h2>
+            <h3>winter collection -50% off</h3>
+        </div>
+
+        <div class="banner-box">
+            <h2>new footwear collection</h2>
+            <h3>winter collection -50% off</h3>
+        </div>
+
+        <div class="banner-box">
+            <h2>t-shirts</h2>
+            <h3>winter collection -50% off</h3>
+        </div>
+    </section>
+
+    <section id="newsletter"  class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>sign up for newsletters</h4>
+            <p>get e-mail updates about latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input id="email" type="text" placeholder="your email address">
+            <button class="normal" id="but">sign up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/logo.png" alt="" class="logo">
+            <h4>contact</h4>
+            <p><strong>address: </strong> Egypt, Cairo - Port Said Street</p>
+            <p><strong>phone: </strong>+20 01288245415 /(+20) 11 5548 4212</p>
+            <p><strong>hours: </strong> 10:00 - 18:00, Sunday - Thursday</p>
+            <div class="follow">
+                <h4>follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>about</h4>
+            <a href="about.html">about us</a>
+            <a href="contact.html">delivery information</a>
+            <a href="contact.html">privacy policy</a>
+            <a href="contact.html">terms & conditions</a>
+            <a href="contact.html">contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>my account</h4>
+            <a href="#">sign in</a>
+            <a href="cart.html">view cart</a>
+            <a href="shop.html">my mishlist</a>
+            <a href="shop.html">track & order</a>
+            <a href="contact.html">help</a>
+        </div>
+
+        <div class="col install">
+            <h4>install App</h4>
+            <p>form app store or google play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>secured payment geteways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p id="copyright"></p>
+        </div>
+    </footer>
+</body>
+<!-- js fille -->
+<script src="Electronic shop.js"></script>
+</html>

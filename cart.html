@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Electronic shop</title>
+
+    <!-- css fille -->
+    <link rel="stylesheet" href="Electronic shop.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" alt="" class="logo"></a>
+
+        <nav>
+            <ul id="navbar">
+                <li class="li"><a href="Electronic shop.html">home</a></li>
+                <li class="li"><a href="shop.html">shop</a></li>
+                <li class="li"><a href="blog.html">blog</a></li>
+                <li class="li"><a href="about.html">about</a></li>
+                <li class="li"><a href="contact.html">contact</a></li>
+                <li class="li" id="lg-bag"><a  class="active" href="cart.html"><span id="num-order">0</span><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </nav>
+
+        <div id="mobile">
+            <a href="cart.html"><span id="num-order">0</span><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#cart</h2>
+        <p>Add your coupon code & SAVE upta 70%!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>remove</td>
+                    <td>image</td>
+                    <td>product</td>
+                    <td>price</td>
+                    <td>quantity</td>
+                    <td>size</td>
+                    <td>subtotal</td>
+                </tr>
+            </thead>
+            <tbody id="tbody-table">
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                    <input type="text" placeholder="enter your coupon">
+                    <span><i class="fa-solid fa-circle-check"></i></span>
+                <button class="normal">Apply</button>
+            </div>
+            <h3>the Coupon</h3>
+            <div class="the-coupon">
+                <div>AHMED70</div>
+                <div>Ahmed50</div>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <div class="desandcobon">
+            <h3>cart totals</h3>
+            <span id="titel-cobon"></span>
+            </div>
+            <table>
+                <tr>
+                    <td>cart subtotal</td>
+                    <td class="total">500$</td>
+                </tr>
+                <tr>
+                    <td>shipping</td>
+                    <td>free</td>
+                </tr>
+                <tr>
+                    <td><strong>total</strong></td>
+                    <td><strong class="total">500$</strong></td>
+                </tr>
+            </table>
+            <button class="normal">proceed to checkout</button>
+        </div>
+    </section>
+
+    <hr>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/logo.png" alt="" class="logo">
+            <h4>contact</h4>
+            <p><strong>address: </strong> Egypt, Cairo - Port Said Street</p>
+            <p><strong>phone: </strong>+20 01288245415 /(+20) 11 5548 4212</p>
+            <p><strong>hours: </strong> 10:00 - 18:00, Sunday - Thursday</p>
+            <div class="follow">
+                <h4>follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>about</h4>
+            <a href="about.html">about us</a>
+            <a href="contact.html">delivery information</a>
+            <a href="contact.html">privacy policy</a>
+            <a href="contact.html">terms & conditions</a>
+            <a href="contact.html">contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>my account</h4>
+            <a href="#">sign in</a>
+            <a href="cart.html">view cart</a>
+            <a href="shop.html">my mishlist</a>
+            <a href="shop.html">track & order</a>
+            <a href="contact.html">help</a>
+        </div>
+
+        <div class="col install">
+            <h4>install App</h4>
+            <p>form app store or google play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>secured payment geteways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p id="copyright"></p>
+        </div>
+    </footer>
+</body>
+<!-- js fille -->
+<script src="cart.js"></script>
+</html>
